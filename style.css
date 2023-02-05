@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  background: #011126;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.output {
+  color: black;
+}
+
+.visual-box {
+  background: white;
+  width: 600px;
+  height: 700px;
+  position: absolute;
+  overflow: scroll;
+}
+
+.circle-scroll {
+  position: relative;
+  background: skyblue;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  float: left;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  shape-outside: circle(50%);
+}
+
+.content {
+  position: relative;
+  left: -30%;
+  width: 800px;
+}
+
+.red {
+  background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.blue {
+  background: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
